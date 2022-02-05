@@ -30,3 +30,11 @@ from math import *
 print(ceil(3.1))
 print(floor(3.7))
 print(sqrt(64))
+
+# Getting Input From Users
+name = input("Enter your name: ")
+age = input("Enter your age: ")
+print("Hello " + name + "! You are " + age)
+
+# Building a Basic Calculator
+
