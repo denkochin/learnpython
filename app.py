@@ -50,5 +50,30 @@ celebrity = input("Enter a celebrity: ")
 print("Roses are " + color)
 print(plural_noun + " are blue")
 print("I love " + celebrity)
+
+# Lists ...
+# List Functions ...
+# Tuples
+# Functions
+# Return
+# If statement
+# If and conditions
+# Upgrading calculator
+# Dictionaries
+# While
+# Guessing game
+# For
+# Exponential function
+# 2D-lists and nested lists
+# Translator
+# Comments
+# Try / Except
 """
-# Lists
+# Read files
+file = open("prestuplenie-i-nakazanie.txt", "r", encoding="UTF-8")
+# print(file.readline())
+# print(file.readlines()[2])
+for line in file.readlines():
+     if line != "\n":
+         print(line.strip())
+file.close()
