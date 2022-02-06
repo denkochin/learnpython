@@ -151,6 +151,24 @@ student2 = Student2("Phyllis", "Business", 3.8)
 
 print(student1.on_honor_roll())
 print(student2.on_honor_roll())
-'''
+
 
 # Inheritance
+from Chef import Chef
+from ChineseChef import ChineseChef
+
+
+myChef = Chef()
+myChef.make_chicken()
+myChef.make_salad()
+myChef.make_special_dish()
+print()
+myChineseChef = ChineseChef()
+myChineseChef.make_chicken()
+myChineseChef.make_salad()
+myChineseChef.make_special_dish()
+myChineseChef.make_fried_rice()
+'''
+
+# Python Interpeter
+
