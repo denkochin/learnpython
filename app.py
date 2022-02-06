@@ -141,6 +141,16 @@ def run_test(questions):
     print("You got " + str(score) + "/" + str(len(questions)) + " correct")
 
 run_test(questions)
-'''
+
 
 # Object Functions
+from Student2 import Student2
+
+student1 = Student2("Oscar", "Accounting", 3.1)
+student2 = Student2("Phyllis", "Business", 3.8)
+
+print(student1.on_honor_roll())
+print(student2.on_honor_roll())
+'''
+
+# Inheritance
