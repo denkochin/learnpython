@@ -1,4 +1,4 @@
-"""
+'''
 # Работа со строками
 phrase = "Giraffe Academy"
 print(phrase.lower())  # giraffe academy
@@ -68,12 +68,43 @@ print("I love " + celebrity)
 # Translator
 # Comments
 # Try / Except
-"""
+
 # Read files
-file = open("prestuplenie-i-nakazanie.txt", "r", encoding="UTF-8")
+file = open("prestuplenie-i-nakazanie.txt", "r")
 # print(file.readline())
 # print(file.readlines()[2])
 for line in file.readlines():
      if line != "\n":
          print(line.strip())
 file.close()
+
+# Writting a file
+def append_to_file(filename, newtext):
+    """Добавляет текст в конец указанного файла
+    :param filename: имя файла в корневой папке
+    :param newtext: добавляемый текст"""
+    file = open(filename, "a")
+    file.write(newtext)
+    file.close()
+append_to_file("prestuplenie-i-nakazanie.txt", "New line appended to a file")
+
+def create_file(filename, text):
+    """Создать новый файл с указанным текстом
+    :param filename: имя файла в корневой папке
+    :param text: добавляемый текст"""
+    file = open(filename, "w", encoding="UTF-8")
+    file.write(text)
+    file.close()
+create_file("file1", "Текст, добавленный в новый файл")
+
+
+# Modules and pip
+import imp
+import useful_tools
+
+print(useful_tools.roll_dice(10))
+
+# list of all python native modules https://docs.python.org/3/py-modindex.html
+'''
+
+# Classes and Objects
