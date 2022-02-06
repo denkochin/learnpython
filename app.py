@@ -105,6 +105,16 @@ import useful_tools
 print(useful_tools.roll_dice(10))
 
 # list of all python native modules https://docs.python.org/3/py-modindex.html
-'''
+
 
 # Classes and Objects
+from Student import Student
+
+
+student1 = Student("Jim", "Business", 3.1, False)
+student2 = Student("Pam", "Art", 2.5, True)
+print(student1.name, student2.gpa)
+'''
+
+# Building a Multiple Choice Quiz
+
